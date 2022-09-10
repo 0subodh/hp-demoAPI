@@ -9,4 +9,4 @@ to run client: npm run start |
 client runs on port 3000 |
 consumes API from backend and displays to user |
 
-**no external database used just JSON
+**no external database used, just JSON
