@@ -20,4 +20,8 @@ app.use((req, res, next) => {
 
 app.use('/api/characters', characterRouter);
 
+app.all('*', (req, res, next) => {
+  next(new AppError(`Can't find ${req.originalUrl} on the server.`, 404));
+});
+
 module.exports = app;
