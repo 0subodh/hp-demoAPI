@@ -1,0 +1,36 @@
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 200ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.card__btn {
+  padding: 1rem;
+  font-weight: bold;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.card__title {
+  cursor: pointer;
+}
