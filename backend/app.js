@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const characterRouter = require('./routes/characterRoute');
+const AppError = require('./utils/appError');
 
 const app = express();
 
