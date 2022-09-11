@@ -13,3 +13,6 @@ consumes API from backend and displays to user
 
 **Sever implemented with static files(JSON) with no external database at this snapshot
 https://github.com/0subodh/hp-demoAPI/tree/67da3d32b5770dbb6800adfdcc78a7163c0f74ad
+
+
+API tested using POSTMAN and Google Chrome Browser
