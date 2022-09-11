@@ -5,13 +5,16 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "data:seed": "node dev-data/import-dev-data.js --import",
+    "data:delete": "node dev-data/import-dev-data.js --delete"
   },
   "author": "Subodh Adhikari",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
   }
 }

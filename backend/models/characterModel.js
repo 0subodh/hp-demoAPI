@@ -1,9 +1,6 @@
-// just model created
-// mongoDB can be implemented later
-/*
 const mongoose = require('mongoose');
 
-const characterSchema = new mongoose.Schema{
+const characterSchema = new mongoose.Schema({
   id: Number,
   name: String,
   alternate_names: [],
@@ -23,8 +20,8 @@ const characterSchema = new mongoose.Schema{
   actor: String,
   alternate_actores: String,
   alive: Boolean,
-  image: String
-}
+  image: String,
+});
 
-export default mongoose.model("Character", characterSchema)
-*/
+const Character = mongoose.model('Character', characterSchema);
+module.exports = Character;
