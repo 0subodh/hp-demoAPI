@@ -1,7 +1,7 @@
 # hp-demoAPI
 
 ## Overview
-**hp-demoAPI** is a full-stack application built with **Node.js, Express, and React**. It provides an API to fetch **Harry Potter characters** and a simple frontend to display them.
+**hp-demoAPI** is a demo full-stack application built with **Node.js, Express, and React**. It provides an API to fetch **Harry Potter characters** and a simple frontend to display them.
 
 - **Server:** Node.js + Express (Runs on port **5000**)
 - **Client:** React + React Router (Runs on port **3000**)
